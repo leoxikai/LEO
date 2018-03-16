@@ -1,0 +1,16 @@
+配置vscode -git 的使用：
+1 Windows 安装vscode git（网站下载）
+  mac 安装vscode git（通过安装xcode）
+2 windows 配置git的基本信息 通过git bash 命令行配置
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
+  mac 配置git的基本信息 通过terninal 命令行配置
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
+3 window  进入vscode 按下control+shift+p 打开 搜索 查找 git clone 执行
+  会跳转到新的仓库界面，然后再搜索栏粘贴github的url地址。然后执行git commit 
+  提示安装一个插件之后，会弹出一个对话框登陆github。
+  mac  进入vscode 按下command+shift+p 打开 搜索 查找 git clone 执行
+  会跳转到新的仓库界面，然后再搜索栏粘贴github的url地址。然后执行git commit 
+  提示安装一个插件之后，直接在搜索栏按照提示登陆github。
+ 
