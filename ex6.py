@@ -15,7 +15,9 @@ hilarious=False
 joke_evaluation="Isn't that joke so funny!{}"
 
 print(joke_evaluation.format(hilarious))
-#不太懂？format的用法不熟悉？
+#不太懂？format的用法不熟悉？--update:变量joke_evaluation内容的最后有个{}
+#与后面的.format连接起来就是.format的用法。注意这里format括号内的是一个变量
+#hilarious。如果里面是个字符串主要要加上单引号。比如ex7里的.format('snow')。
 w="This is the left side of..."
 e="a string with a right side."
 print(w+e)
