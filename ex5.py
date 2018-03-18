@@ -7,6 +7,7 @@ my_teeth='White'
 my_hair='Black'
 
 print(f"Let's talk about {my_name}.")
+#print("Let's talk about",my_name)
 print(f"He's {my_height} inches tall.")
 print(f"He's {my_weight} pounds heavy.")
 print(f"He's got {my_eyes} eyes and {my_hair} hair.")
