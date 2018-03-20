@@ -10,6 +10,11 @@ input("?")
 
 print("Opening the file...")
 targaet=open(filename,'w')
+'''
+If you use 'w' then you’re saying ”open this fi le in ’write’ mode,” 
+thus the 'w' character. There’s also 'r' for ”read,” 'a' for append, 
+and modifi ers on these
+'''
 
 print("Truncating the file. Goodbye!")
 targaet.truncate()
